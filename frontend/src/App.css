@@ -1,0 +1,112 @@
+label {
+    display: block;
+}
+
+select {
+    margin-left: 2px;
+    width: 280px;
+    height: 30px;
+    font-size: larger;
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+h2{
+    margin-top: 35px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-btn{
+    background-color: rgb(60, 135, 215);
+    color: white;
+    margin-right: 2px;
+    margin-left: 20px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.my-btn a {
+    text-decoration: none;
+    color: white;
+}
+.myinput{
+    margin-left: 2px;
+    width: 280px;
+    height: 30px;
+    font-size: larger;
+}
+.myinput:focus{
+    outline: none
+}
+
+table {
+    width: 100%;
+    border: 1px solid white;   
+}
+thead{
+    background-color: rgb(60, 135, 215);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+td {
+    padding: 8px;
+}
+
+tbody tr {
+    background-color: rgb(228,235,243);
+}
+tbody tr:hover{
+    background-color: rgb(197,213,235);
+}
+
+td img{
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.file-upload{
+    background-color: rgb(234,233,236);
+}
+.newSoldier-container{
+    margin-top: 20px;
+    border: 1px solid rgb(145,175,200);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-icon{ 
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0); 
+    font-size: 15px
+}
+.button-icon:focus {
+    outline: none;
+}
+
+
+
+
+
